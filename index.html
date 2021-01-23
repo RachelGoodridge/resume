@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Rachel Goodridge</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Rachel</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Credentials</a>
+</li>
+<li>
+  <a href="proj.html">Projects and Publications</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Rachel Goodridge</h1>
+
+</div>
+
+
+<p> </p>
+<div id="summary" class="section level2">
+<h2>Summary</h2>
+<p>Biologist researching life history and decision-making strategies and finishing a Master of Science degree in the Ecology, Behavior, and Evolution (EBE) Department at UC San Diego. I currently conduct laboratory research on nematodes and am developing an extensive model in Python to simulate the life cycles and interactions of a worm population. I’m looking to pursue a career that combines my technical skills in Biology, Math, and/or Programming.</p>
+<hr />
+</div>
+<div id="education" class="section level2">
+<h2>Education</h2>
+<div id="uc-san-diego-la-jolla-ca" class="section level3">
+<h3><a href="https://ucsd.edu/">UC San Diego, La Jolla CA</a></h3>
+<div id="sept-2019---june-2021" class="section level4">
+<h4>SEPT 2019 - JUNE 2021</h4>
+<ul>
+<li>Master of Science: Biology BS/MS</li>
+<li>Ecology, Behavior, Evolution Dept</li>
+<li>Rifkin Lab: Nematode Experiments</li>
+<li>Project 1: Modeling C. <em>elegan</em> life cycles and the dauer phase of development (Python)</li>
+<li>Project 2: Predicting C. <em>elegan</em> movements with empirical dynamic modeling (R)</li>
+<li>Good Academic Standing</li>
+<li>4.00 GPA</li>
+</ul>
+<p> </p>
+</div>
+</div>
+<div id="uc-san-diego-la-jolla-ca-1" class="section level3">
+<h3><a href="https://ucsd.edu/">UC San Diego, La Jolla CA</a></h3>
+<div id="sept-2015---june-2019" class="section level4">
+<h4>SEPT 2015 - JUNE 2019</h4>
+<ul>
+<li>Bachelor of Science</li>
+<li>Major: General Biology</li>
+<li>Minor: Mathematics</li>
+<li>College: Eleanor Roosevelt</li>
+<li>Good Academic Standing</li>
+<li>3.68 GPA</li>
+</ul>
+<p> </p>
+</div>
+</div>
+<div id="folsom-high-school-folsom-ca" class="section level3">
+<h3><a href="https://www.fcusd.org/fhs">Folsom High School, Folsom CA</a></h3>
+<div id="aug-2011---may-2015" class="section level4">
+<h4>AUG 2011 - MAY 2015</h4>
+<ul>
+<li>AP Coursework: Calculus, Biology, French, Psychology</li>
+<li>Honors Coursework: Chemistry, Physics, English</li>
+<li>Club Involvement: California Scholarship Federation, NSHSS, Key Club, and Interact Club</li>
+<li>Valedictorian/graduation speaker</li>
+<li>4.17 GPA</li>
+</ul>
+<hr />
+</div>
+</div>
+</div>
+<div id="experience" class="section level2">
+<h2>Experience</h2>
+<div id="ucsd-mathematics-la-jolla-ca" class="section level3">
+<h3><a href="https://math.ucsd.edu/">UCSD Mathematics, La Jolla CA</a></h3>
+</div>
+<div id="teachers-assistant" class="section level3">
+<h3><em>Teacher’s Assistant</em></h3>
+<div id="sept-2019---present" class="section level4">
+<h4>SEPT 2019 - PRESENT</h4>
+<ul>
+<li>Facilitate discussion sections and hold office hours</li>
+<li>Proctor and grade midterms/final exams</li>
+<li>Courses: Vector Calculus, Integral Calculus, and Pre-Calculus</li>
+</ul>
+<p> </p>
+</div>
+</div>
+<div id="ucsd-recreation-la-jolla-ca" class="section level3">
+<h3><a href="https://recreation.ucsd.edu/">UCSD Recreation, La Jolla CA</a></h3>
+</div>
+<div id="equipment-room-attendant-recreation-experience-assistant-facility-supervisor" class="section level3">
+<h3><em>Equipment Room Attendant / Recreation Experience Assistant / Facility Supervisor</em></h3>
+<div id="oct-2016---present" class="section level4">
+<h4>OCT 2016 - PRESENT</h4>
+<ul>
+<li>Sell memberships, classes, merchandise, lockers, equipment, etc.</li>
+<li>Arrange for events, open/close the gym, and supervise sales staff</li>
+<li>Act as a first responder in case of emergency in the building</li>
+<li>Serve on the hiring committee, read applications, conduct interviews</li>
+<li>Train new employees and write the Facility Supervisor manuals</li>
+<li>Promoted to lead Facility Supervisor and scheduling lead</li>
+<li>Employee of the Month (Feb 2020), Employee of the Year (2019-2020)</li>
+</ul>
+<p> </p>
+</div>
+</div>
+<div id="department-of-pesticide-regulation-cal-epa-sacramento-ca" class="section level3">
+<h3><a href="https://www.cdpr.ca.gov/">Department of Pesticide Regulation / Cal EPA, Sacramento CA</a></h3>
+</div>
+<div id="student-intern-in-the-human-health-assessment-branch" class="section level3">
+<h3><em>Student Intern in the Human Health Assessment Branch</em></h3>
+<div id="summer-2016-2018" class="section level4">
+<h4>SUMMER 2016, 2018</h4>
+<ul>
+<li>Analyze scientific documents and protocols</li>
+<li>Create and manipulate toxicology models in Microsoft Excel</li>
+<li>Perform sensitivity analyses and craft reports with charts/graphs</li>
+<li>Research and create a database of sources using the program EndNote</li>
+<li>Accompany air/water sampling teams for field work</li>
+</ul>
+<p> </p>
+</div>
+</div>
+<div id="sacramento-zoological-society-sacramento-ca" class="section level3">
+<h3><a href="https://www.saczoo.org/">Sacramento Zoological Society, Sacramento CA</a></h3>
+</div>
+<div id="camp-counselor-teachers-assistant" class="section level3">
+<h3><em>Camp Counselor / Teacher’s Assistant</em></h3>
+<div id="summer-2011---2017" class="section level4">
+<h4>SUMMER 2011 - 2017</h4>
+<ul>
+<li>Aid the teacher in designing and implementing lesson plans</li>
+<li>Supervise and instruct camp counselors and hundreds of campers</li>
+<li>Counselor for 5 years, Promoted to Teaching Assistant for 2 years</li>
+<li>Awards for initiative, leadership, and enthusiasm</li>
+</ul>
+<p> </p>
+</div>
+</div>
+<div id="self-employed-tutor-folsom-ca" class="section level3">
+<h3><a href="">Self-Employed Tutor, Folsom CA</a></h3>
+</div>
+<div id="private-math-tutor" class="section level3">
+<h3><em>Private Math Tutor</em></h3>
+<div id="school-year-2012---2015" class="section level4">
+<h4>SCHOOL YEAR 2012 - 2015</h4>
+<ul>
+<li>Assist with homework and test preparation in Geometry and Algebra 2</li>
+</ul>
+<p> </p>
+</div>
+</div>
+<div id="temple-kol-shalom-el-dorado-hills-ca" class="section level3">
+<h3><a href="https://www.templekolshalom.org/">Temple Kol Shalom, El Dorado Hills CA</a></h3>
+</div>
+<div id="hebrew-school-teacher" class="section level3">
+<h3><em>Hebrew School Teacher</em></h3>
+<div id="school-year-2010---2014" class="section level4">
+<h4>SCHOOL YEAR 2010 - 2014</h4>
+<ul>
+<li>Teach children Hebrew prayers and about Jewish culture</li>
+<li>Guide students in preparation for their Bar/Bat Mitzvahs</li>
+<li>Assist with event/holiday preparations</li>
+</ul>
+<hr />
+</div>
+</div>
+</div>
+<div id="skills-certifications" class="section level2">
+<h2>Skills &amp; Certifications</h2>
+<ul>
+<li>Proficient in Microsoft Word, Power Point, and Excel</li>
+<li>Experience with EndNote and Git</li>
+<li>Coding Languages: Python and R</li>
+<li>Problem solving, quantitative, and critical thinking skills</li>
+<li>Organizational, leadership, and written/oral communication skills</li>
+<li>CPR/AED/First Aid Certified</li>
+<li>Connect2 Champion Certification</li>
+</ul>
+<hr />
+<div id="other-links" class="section level3">
+<h3>Other Links</h3>
+<ul>
+<li><a href="https://www.linkedin.com/in/rachel-goodridge-221a3116a/">LinkedIn</a></li>
+<li><a href="https://my.indeed.com/p/rachelg-zs5pl5o">Indeed</a></li>
+<li><a href="https://github.com/RachelGoodridge">GitHub</a></li>
+</ul>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

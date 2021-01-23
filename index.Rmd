@@ -1,0 +1,120 @@
+---
+title: "Rachel Goodridge"
+---
+
+\  
+
+## Summary
+Biologist researching life history and decision-making strategies and finishing a Master of Science degree in the Ecology, Behavior, and Evolution (EBE) Department at UC San Diego. I currently conduct laboratory research on nematodes and am developing an extensive model in Python to simulate the life cycles and interactions of a worm population. I’m looking to pursue a career that combines my technical skills in Biology, Math, and/or Programming.
+
+---
+
+## Education
+### [UC San Diego, La Jolla CA](https://ucsd.edu/)
+#### SEPT 2019 - JUNE 2021
+- Master of Science: Biology BS/MS
+- Ecology, Behavior, Evolution Dept
+- Rifkin Lab: Nematode Experiments
+- Project 1: Modeling C. *elegan* life cycles and the dauer phase of development (Python)
+- Project 2: Predicting C. *elegan* movements with empirical dynamic modeling (R)
+- Good Academic Standing
+- 4.00 GPA
+
+\  
+
+### [UC San Diego, La Jolla CA](https://ucsd.edu/)
+#### SEPT 2015 - JUNE 2019
+- Bachelor of Science
+- Major: General Biology
+- Minor: Mathematics
+- College: Eleanor Roosevelt
+- Good Academic Standing
+- 3.68 GPA
+
+\  
+
+### [Folsom High School, Folsom CA](https://www.fcusd.org/fhs)
+#### AUG 2011 - MAY 2015
+- AP Coursework: Calculus, Biology, French, Psychology
+- Honors Coursework: Chemistry, Physics, English
+- Club Involvement: California Scholarship Federation, NSHSS, Key Club, and Interact Club
+- Valedictorian/graduation speaker
+- 4.17 GPA
+
+---
+
+## Experience
+### [UCSD Mathematics, La Jolla CA](https://math.ucsd.edu/)
+### *Teacher’s Assistant*
+#### SEPT 2019 - PRESENT
+- Facilitate discussion sections and hold office hours
+- Proctor and grade midterms/final exams
+- Courses: Vector Calculus, Integral Calculus, and Pre-Calculus
+
+\  
+
+### [UCSD Recreation, La Jolla CA](https://recreation.ucsd.edu/)
+### *Equipment Room Attendant / Recreation Experience Assistant / Facility Supervisor*
+#### OCT 2016 - PRESENT
+- Sell memberships, classes, merchandise, lockers, equipment, etc.
+- Arrange for events, open/close the gym, and supervise sales staff
+- Act as a first responder in case of emergency in the building
+- Serve on the hiring committee, read applications, conduct interviews
+- Train new employees and write the Facility Supervisor manuals
+- Promoted to lead Facility Supervisor and scheduling lead
+- Employee of the Month (Feb 2020), Employee of the Year (2019-2020)
+
+\  
+
+### [Department of Pesticide Regulation / Cal EPA, Sacramento CA](https://www.cdpr.ca.gov/)
+### *Student Intern in the Human Health Assessment Branch*
+#### SUMMER 2016, 2018
+- Analyze scientific documents and protocols
+- Create and manipulate toxicology models in Microsoft Excel
+- Perform sensitivity analyses and craft reports with charts/graphs
+- Research and create a database of sources using the program EndNote
+- Accompany air/water sampling teams for field work
+
+\  
+
+### [Sacramento Zoological Society, Sacramento CA](https://www.saczoo.org/)
+### *Camp Counselor / Teacher’s Assistant*
+#### SUMMER 2011 - 2017
+- Aid the teacher in designing and implementing lesson plans
+- Supervise and instruct camp counselors and hundreds of campers
+- Counselor for 5 years, Promoted to Teaching Assistant for 2 years
+- Awards for initiative, leadership, and enthusiasm
+
+\  
+
+### [Self-Employed Tutor, Folsom CA]()
+### *Private Math Tutor*
+#### SCHOOL YEAR  2012 - 2015
+- Assist with homework and test preparation in Geometry and Algebra 2
+
+\  
+
+### [Temple Kol Shalom, El Dorado Hills CA](https://www.templekolshalom.org/)
+### *Hebrew School Teacher*
+#### SCHOOL YEAR  2010 - 2014
+- Teach children Hebrew prayers and about Jewish culture
+- Guide students in preparation for their Bar/Bat Mitzvahs 
+- Assist with event/holiday preparations
+
+---
+
+## Skills & Certifications
+- Proficient in Microsoft Word, Power Point, and Excel
+- Experience with EndNote and Git
+- Coding Languages: Python and R
+- Problem solving, quantitative, and critical thinking skills
+- Organizational, leadership, and written/oral communication skills
+- CPR/AED/First Aid Certified
+- Connect2 Champion Certification
+
+---
+
+### Other Links
+- [LinkedIn](https://www.linkedin.com/in/rachel-goodridge-221a3116a/)
+- [Indeed](https://my.indeed.com/p/rachelg-zs5pl5o)
+- [GitHub](https://github.com/RachelGoodridge)

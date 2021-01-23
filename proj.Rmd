@@ -1,0 +1,45 @@
+---
+title: ""
+---
+
+\  
+
+# Projects
+
+\  
+
+###  Master's Thesis Research
+#### Background Information
+Caenorhabditis *elegans* is a millimeter long roundworm (or nematode) found worldwide in soil and rotting plant matter. It commonly serves as an ideal model organism for various types of genetic and evolutionary experimental studies due to its fast life cycle, ease of maintenance, and simple neurological structure. Click [here](https://www.youtube.com/watch?v=zjqLwPgLnV0) to watch a brief informational C. *elegans* video.
+
+\  
+
+#### C. *elegans* Life History Model
+I'm currently pursuing my MS in Biology (Evolution/Behavior/Ecology department), conducting research in a lab led by Dr. Scott Rifkin. I study the evolution of a particular phase of the worm life cycle called dauer. This stage of development is an intermediate larval stage during which the worm can "choose" to go into a stasis-like state given difficult environmental conditions (e.g. overcrowding or lack of food) [Hu 2007]. As part of my research, I am developing a population ecology/evolution model in Python to simulate the development of a group of individuals and/or their offspring; their interactions with each other; and their responses to specific environmental conditions. The model takes many realistic factors into account (e.g. genetics and the role of "randomness in decision-making") [Avery 2014] when determining if a particular worm will go into the dauer phase of development. I've recently begun studies in the labortory to improve particular aspects of the model and, eventually, to test the accuracy of its predictions.
+
+The complete Python script and a Jupyter notebook demonstrating use of the model can be found [here](https://github.com/RachelGoodridge/life_history_sim).
+
+\  
+
+#### Larval Dietary Restriction Experiment
+One aspect of my model I've been testing in lab is whether the quantity of food available to a worm determines its transition to the next stage of development or if it is simply a matter of time passing. Studies show that life span is food-dependent, specifically adult worms have an increased life span if fed a restricted diet [e.g. Klass 1977, Lee et al. 2006]. However, it is unknown whether larval stages experience the same effect. To test this, I've designed an experiment in lab with four treatment groups of L1 (first larval stage) worms, each fed a different concentration of E. *coli* (6 mg/mL, 4.8 mg/mL, 3.6 mg/mL, or 2.4 mg/mL). If the effect is the same on larvae as it is on adults, the expected outcome would be statiscially different lengths of time spent in L1 before molting to L2/L2d (second larval stage). To determine when the worms are molting, I have a specific strain of C. *elegans* with a gfp (green fluorescent protein) marker on the molting gene that makes the worms glow under an epifluorescent microscope when they're molting. The glow will last for about three hours, peaking in intensity when they molt [Monsalve et al. 2011]. One complication, however, is that if the worms are not completely synchronized in age (i.e. they don't all start from time zero in their life stage), and depending on how far apart in age they are, the results may be confounded by this variation. My objective is to create a simulation that will test whether unsynchronized worms can produce statistically significant results.
+
+A sample of the code and results of the simulation can be found [here](https://github.com/RachelGoodridge/larval_dr_exp).
+
+---
+
+# Publications
+
+\  
+
+### Tracking changes in behavioural dynamics using prediction error
+This paper was a collaboration between members of the Scripps Institution of Oceanography and members of the Section of Ecology, Behavior, and Evolution, Division of Biological Sciences at UCSD. It was published in bioRxiv on October 21, 2020 and can be found online [here](https://www.biorxiv.org/content/10.1101/2020.10.19.346080v1). The code used in our analysis is available via GitHub [here](https://rachelgoodridge.github.io/c_elegans_pred_error/).
+
+---
+
+### References
+1. Avery, Leon. “A Model of the Effect of Uncertainty on the C Elegans L2/L2d Decision.” PLoS ONE, vol. 9, no. 7, 16 July 2014, doi:10.1371/journal.pone.0100580.
+2. Hu, P.J., Dauer (August 08, 2007), *WormBook*, ed. The C. *elegans* Research Community, WormBook, doi/10.1895/wormbook.1.144.1, http://www.wormbook.org.
+3. Klass, Michael R. “Aging in the Nematode Caenorhabditis Elegans: Major Biological and Environmental Factors Influencing Life Span.” Mechanisms of Ageing and Development, vol. 6, 25 Jan. 1977, pp. 413–429., doi:10.1016/0047-6374(77)90043-4.
+4. Lee, Garrick D., et al. “Dietary Deprivation Extends Lifespan in Caenorhabditis Elegans.” Aging Cell, vol. 5, no. 6, 26 Aug. 2006, pp. 515–524., doi:10.1111/j.1474-9726.2006.00241.x.
+5. Monsalve, Gabriela C., et al. “LIN-42/PERIOD Controls Cyclical and Developmental Progression of C. Elegans Molts.” Current Biology, vol. 21, no. 24, 20 Dec. 2011, pp. 2033–2045., doi:10.1016/j.cub.2011.10.054.

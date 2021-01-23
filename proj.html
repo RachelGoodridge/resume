@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>proj.utf8</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Rachel</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Credentials</a>
+</li>
+<li>
+  <a href="proj.html">Projects and Publications</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<p> </p>
+<div id="projects" class="section level1">
+<h1>Projects</h1>
+<p> </p>
+<div id="masters-thesis-research" class="section level3">
+<h3>Master’s Thesis Research</h3>
+<div id="background-information" class="section level4">
+<h4>Background Information</h4>
+<p>Caenorhabditis <em>elegans</em> is a millimeter long roundworm (or nematode) found worldwide in soil and rotting plant matter. It commonly serves as an ideal model organism for various types of genetic and evolutionary experimental studies due to its fast life cycle, ease of maintenance, and simple neurological structure. Click <a href="https://www.youtube.com/watch?v=zjqLwPgLnV0">here</a> to watch a brief informational C. <em>elegans</em> video.</p>
+<p> </p>
+</div>
+<div id="c.-elegans-life-history-model" class="section level4">
+<h4>C. <em>elegans</em> Life History Model</h4>
+<p>I’m currently pursuing my MS in Biology (Evolution/Behavior/Ecology department), conducting research in a lab led by Dr. Scott Rifkin. I study the evolution of a particular phase of the worm life cycle called dauer. This stage of development is an intermediate larval stage during which the worm can “choose” to go into a stasis-like state given difficult environmental conditions (e.g. overcrowding or lack of food) [Hu 2007]. As part of my research, I am developing a population ecology/evolution model in Python to simulate the development of a group of individuals and/or their offspring; their interactions with each other; and their responses to specific environmental conditions. The model takes many realistic factors into account (e.g. genetics and the role of “randomness in decision-making”) [Avery 2014] when determining if a particular worm will go into the dauer phase of development. I’ve recently begun studies in the labortory to improve particular aspects of the model and, eventually, to test the accuracy of its predictions.</p>
+<p>The complete Python script and a Jupyter notebook demonstrating use of the model can be found <a href="https://github.com/RachelGoodridge/life_history_sim">here</a>.</p>
+<p> </p>
+</div>
+<div id="larval-dietary-restriction-experiment" class="section level4">
+<h4>Larval Dietary Restriction Experiment</h4>
+<p>One aspect of my model I’ve been testing in lab is whether the quantity of food available to a worm determines its transition to the next stage of development or if it is simply a matter of time passing. Studies show that life span is food-dependent, specifically adult worms have an increased life span if fed a restricted diet [e.g. Klass 1977, Lee et al. 2006]. However, it is unknown whether larval stages experience the same effect. To test this, I’ve designed an experiment in lab with four treatment groups of L1 (first larval stage) worms, each fed a different concentration of E. <em>coli</em> (6 mg/mL, 4.8 mg/mL, 3.6 mg/mL, or 2.4 mg/mL). If the effect is the same on larvae as it is on adults, the expected outcome would be statiscially different lengths of time spent in L1 before molting to L2/L2d (second larval stage). To determine when the worms are molting, I have a specific strain of C. <em>elegans</em> with a gfp (green fluorescent protein) marker on the molting gene that makes the worms glow under an epifluorescent microscope when they’re molting. The glow will last for about three hours, peaking in intensity when they molt [Monsalve et al. 2011]. One complication, however, is that if the worms are not completely synchronized in age (i.e. they don’t all start from time zero in their life stage), and depending on how far apart in age they are, the results may be confounded by this variation. My objective is to create a simulation that will test whether unsynchronized worms can produce statistically significant results.</p>
+<p>A sample of the code and results of the simulation can be found <a href="https://github.com/RachelGoodridge/larval_dr_exp">here</a>.</p>
+<hr />
+</div>
+</div>
+</div>
+<div id="publications" class="section level1">
+<h1>Publications</h1>
+<p> </p>
+<div id="tracking-changes-in-behavioural-dynamics-using-prediction-error" class="section level3">
+<h3>Tracking changes in behavioural dynamics using prediction error</h3>
+<p>This paper was a collaboration between members of the Scripps Institution of Oceanography and members of the Section of Ecology, Behavior, and Evolution, Division of Biological Sciences at UCSD. It was published in bioRxiv on October 21, 2020 and can be found online <a href="https://www.biorxiv.org/content/10.1101/2020.10.19.346080v1">here</a>. The code used in our analysis is available via GitHub <a href="https://rachelgoodridge.github.io/c_elegans_pred_error/">here</a>.</p>
+<hr />
+</div>
+<div id="references" class="section level3">
+<h3>References</h3>
+<ol style="list-style-type: decimal">
+<li>Avery, Leon. “A Model of the Effect of Uncertainty on the C Elegans L2/L2d Decision.” PLoS ONE, vol. 9, no. 7, 16 July 2014, <a href="doi:10.1371/journal.pone.0100580" class="uri">doi:10.1371/journal.pone.0100580</a>.</li>
+<li>Hu, P.J., Dauer (August 08, 2007), <em>WormBook</em>, ed. The C. <em>elegans</em> Research Community, WormBook, doi/10.1895/wormbook.1.144.1, <a href="http://www.wormbook.org" class="uri">http://www.wormbook.org</a>.</li>
+<li>Klass, Michael R. “Aging in the Nematode Caenorhabditis Elegans: Major Biological and Environmental Factors Influencing Life Span.” Mechanisms of Ageing and Development, vol. 6, 25 Jan. 1977, pp. 413–429., <a href="doi:10.1016/0047-6374(77)90043-4" class="uri">doi:10.1016/0047-6374(77)90043-4</a>.</li>
+<li>Lee, Garrick D., et al. “Dietary Deprivation Extends Lifespan in Caenorhabditis Elegans.” Aging Cell, vol. 5, no. 6, 26 Aug. 2006, pp. 515–524., <a href="doi:10.1111/j.1474-9726.2006.00241.x" class="uri">doi:10.1111/j.1474-9726.2006.00241.x</a>.</li>
+<li>Monsalve, Gabriela C., et al. “LIN-42/PERIOD Controls Cyclical and Developmental Progression of C. Elegans Molts.” Current Biology, vol. 21, no. 24, 20 Dec. 2011, pp. 2033–2045., <a href="doi:10.1016/j.cub.2011.10.054" class="uri">doi:10.1016/j.cub.2011.10.054</a>.</li>
+</ol>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

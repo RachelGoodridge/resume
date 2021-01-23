@@ -1,0 +1,12 @@
+name: "Rachel"
+output_dir: "."
+navbar:
+  title: "Rachel"
+  left:
+    - text: "Credentials"
+      href: index.html
+    - text: "Projects and Publications"
+      href: proj.html
+output:
+  html_document:
+    theme: flatly
