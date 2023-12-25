@@ -1,0 +1,104 @@
+---
+title: "Skills"
+---
+
+\  
+
+## Technical Skills
+#### Laboratory Instruments, Equipment, and Techniques
+- CHI Electrochemical Analyzer
+- Trion Etcher
+- UV Ozone (UVO) Cleaner
+- Plasma Asher
+- Scanning Electron Microscope (SEM)
+- Energy-dispersive X-ray (EDX) Spectroscopy
+- Thermocycler
+- Typhoon Scanner
+- Cytation5 Plate Reader
+- Contact Angle Measurement / Goniometer
+- NanoDrop Spectrophotometer
+- Cleanroom Trained
+- Epifluorescent Microscope
+- Pipettes
+- Sonicator
+- Bunsen Burner
+- Sterile Techniques
+- Autoclave
+- Solution Preparation
+- pH Measurement
+- Centrifugation
+- Vortex
+
+\  
+
+#### Software and Programming Languages
+- Python (advanced)
+- Microsoft Office (advanced)
+- R (intermediate)
+- Git / GitHub  (intermediate)
+- JMP (intermediate)
+- SQL (beginner)
+- Tableau (beginner)
+- EndNote (beginner)
+- HTML (beginner)
+- MATLAB (beginner)
+
+\  
+
+#### Python Modules
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- BeautifulSoup
+- Scikit-learn
+- SciPy
+- Random
+- Regular Expressions (re)
+- Plotly
+- os
+- SQLAlchemy
+- Pickle
+- Datetime
+- Natural Language Toolkit (nltk)
+- Interact
+- Streamlit
+- argparse
+
+\  
+
+#### Models and Applications
+- Dimensionality Reduction
+- k-Nearest Neighbors
+- Linear Regression
+- Logistic Regression
+- Supervised and Unsupervised Machine Learning
+- Classification
+- Natural Language Processing (NLP)
+- Topic Modeling
+- Recommendation Systems
+- Web Applications
+- Object-Oriented Programming (OOP)
+- Unit Testing
+- Web Scraping
+- Coding Best Practices
+- Data Visualization
+
+\  
+
+## Professional Skills
+- Problem Solving
+- Quantitative
+- Critical Thinking
+- Teaching
+- Organization
+- Leadership
+- Written and Oral Communication
+- Initiative
+- Intermediate Competency in French
+
+\  
+
+## Certifications
+- Adult and Pediatric First Aid / CPR / AED Certified by the American Red Cross
+- Connect2 Champion Certification

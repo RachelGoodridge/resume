@@ -1,0 +1,81 @@
+---
+title: "Projects"
+---
+
+\  
+
+##  Metis Projects
+### Comparing COVID-19 Cases to Vaccines in the United States
+Using data about COVID-19 cases from Johns Hopkins University (found [here](https://www.kaggle.com/headsortails/covid19-us-county-jhu-data-demographics?select=covid_us_county.csv)) and COVID vaccines from the CDC (found [here](https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations)), I created an interactive website application that allows users to select and interpret various geospatial data plotted on an interactive map, create customizable dataframe queries, and observe visualizations of the changes in COVID cases and vaccines over time. It is meant to be informative to the general public, and ideally can be used to identify target locations that could benefit from public health outreach programs. I developed this app with Streamlit and deployed it using GitHub. Draw conclusions and create your own interpretations by visiting the website and exploring the data.
+
+Find the website application [here](https://share.streamlit.io/rachelgoodridge/data_engineering/main/streamlit/streamlit_app.py) and the code on GitHub [here](https://github.com/RachelGoodridge/Data_Engineering).
+
+\  
+
+### Developing a Recommendation System for Wine Enthusiasts
+The purpose of this model is to create a wine recommendation system for wine enthusiasts of all experience levels that allows users to explore new options and effortlessly make decisions about their next wine purchase. The [dataset](https://www.kaggle.com/mysarahmadbhat/wine-tasting) includes 49,546 unique wine tastings and descriptions written by sommeliers. Using text preprocessing, dimensionality reduction, and topic modeling, I created a content-based filtering system that can be used to find the closest match to any given wine in the dataset. The search can also be narrowed, based on user input, such that the algorithm only returns wines with the specific features requested by the consumer.
+
+Find the code on GitHub [here](https://github.com/RachelGoodridge/Natural_Language_Processing).
+
+\  
+
+### Predicting Potentially Hazardous Asteroids
+Near-Earth Objects (NEOs), such as asteroids, occasionally have the potential to collide with Earth and cause enormous damage. NASA has been documenting these NEOs as well as many other types of space-going debris and developing diversion tactics given the event of an impact threat. From [NASA’s Small-Body Database](https://ssd.jpl.nasa.gov/tools/sbdb_query.html), information about asteroids was used to train a machine learning classification model and predict which asteroids are potentially hazardous. Following oversampling to address class imbalance and optimization of many parameters, the best model based on F1 validation scores was XGBoost Classifier. The score on the holdout data was 0.784 and the most important features were absolute magnitude, closest distance to the sun, and orbit uncertainty.
+
+Find the code on GitHub [here](https://github.com/RachelGoodridge/Machine_Learning).
+
+\  
+
+### Comparing Microsoft vs. Nintendo vs. Sony
+To help Microsoft compete against Nintendo and Sony in the gaming world, several data analysis algorithms and data science techniques can be employed as part of an end-to-end data pipeline. Through exploratory data analysis of game sales and ratings, focus areas were selected depending on the preference for diversification of game availability or improvement of the current gaming niche. Further work such as clustering games into categories, making predictions from time series analysis, and using natural language processing to hunt for truths should be conducted as well.
+
+The data in this analysis is from [Kaggle](https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings) and data exploration/visualization was performed in [Google Sheets](https://docs.google.com/spreadsheets/d/1IzZdD5ClFKuBHfWMm8PevlxuX4BXdM0G8yXqgQvV_LQ/edit?usp=sharing) and [Tableau](https://public.tableau.com/app/profile/rachel.goodridge#!/?newProfile=&activeTab=0). Find more information on GitHub [here](https://github.com/RachelGoodridge/Business_Fundamentals).
+
+\  
+
+### Modeling Worldwide Gross Box Office Collection for Films 2012-2021
+Using data from films in 2012-2021 scraped from [Box Office Mojo](https://www.boxofficemojo.com/year/2021/?grossesOption=calendarGrosses), a multiple linear regression model can be produced to determine which features affect the worldwide gross box office of a film. Features including budget, running time, and number of theaters show some positive correlation with worldwide gross. Comparisons can also be made between distributors and genres using dummy variables. Relative to Focus Features, Universal Pictures and Walt Disney Pictures perform better, while Open Road Films performs worse. Relative to Action, adding Animation, Music, and/or Musical aspects to a film would create improvement while Family, Fantasy, and Sports films would not.
+
+Find the code on GitHub [here](https://github.com/RachelGoodridge/Linear_Regression_Web_Scraping).
+
+\  
+
+### Optimizing Construction Work on the MTA System in NYC
+Through interpretation of [MTA Turnstile Data](http://web.mta.info/developers/turnstile.html) for the Lexington Ave/59th Street subway station in Manhattan, an optimal time for closing this station for Huff construction company to complete some repairs was determined. Data was ingested using SQLite and processed in Python with pandas. Results showed the least amount of traffic at the station on average occurs between midnight and 4am on weekdays, and thus, this would be a good time to close the station to complete the work.
+
+Find the code on GitHub [here](https://github.com/RachelGoodridge/Exploratory_Data_Analysis).
+
+\  
+
+##  Master's Thesis Research
+### Background Information
+*Caenorhabditis elegans* is a millimeter long roundworm (or nematode) found worldwide in soil and rotting plant matter. It commonly serves as an ideal model organism for various types of genetic and evolutionary experimental studies due to its fast life cycle, ease of maintenance, and simple neurological structure. Click [here](https://www.youtube.com/watch?v=zjqLwPgLnV0) to watch a brief informational *C. elegans* video.
+
+\  
+
+### *C. elegans* Life History Model
+I recently completed a Master of Science in Biology (Evolution/Behavior/Ecology Department), conducting research in a lab led by Dr. Scott Rifkin. I studied the evolution of a particular phase of the worm life cycle called dauer. This stage of development is an intermediate larval stage during which the worm can "choose" to go into a stasis-like state given difficult environmental conditions (e.g. overcrowding or lack of food) [Hu 2007]. As part of my research, I developed a population ecology/evolution model in Python to simulate the development of a group of individuals and/or their offspring, their interactions with each other, and their responses to specific environmental conditions. The model takes many realistic factors into account (e.g. genetics and the role of "randomness" in decision-making) [Avery 2014] when determining if a particular worm will go into the dauer phase of development. I also conducted studies in the laboratory to improve particular aspects of the model and, in the future, more experiments can be performed to test the accuracy of its predictions.
+
+The complete Python script and a Jupyter notebook demonstrating use of the model can be found [here](https://github.com/RachelGoodridge/life_history_sim).
+
+\  
+
+### Abstract of the Thesis
+Nematodes such as *Caenorhabditis elegans*, *C. briggsae*, *C. remanei*, and *C. nigoni* are model organisms that primarily reside in rotting fruit and plant matter, feeding on the bacteria that inhabit these degrading vegetation [Frézal & Félix 2015]. When conditions are poor, worms must decide whether to go into a larval stage called dauer [Avery 2014]. Entering dauer would allow the worms to survive for months; however, the risk of dying in dauer is high and this results in a tradeoff. I created an extensive model in Python to simulate the population dynamics and decision-making strategies of worms and their responses to various environmental conditions. This model includes genes related to both dauer and travel direction decision making strategies. Experiments showed significant evolution of both genes when there is stronger selection against worms in dauer, both genes when there is higher frequency of food availability, the dauer gene only when the dauer genotype to phenotype mapping is altered, and neither gene when seasonality in terms of environmental productivity is introduced. Stronger selection against worms in dauer led them to evolve a lower likelihood of dauer and a preference for traveling away from neighbors. A higher frequency of food availability also led them to evolve a lower likelihood of dauer but a preference for traveling towards food. A higher genotype to phenotype mapping value led them to evolve a lower likelihood of dauer as well. However, there may be some underlying patterns present in many of these experiments that require further study.
+
+\  
+
+### Larval Dietary Restriction Experiment
+One aspect of my model I tested in lab is whether the quantity of food available to a worm determines its transition to the next stage of development or if it is simply a matter of time passing. Studies show that life span is food-dependent, specifically adult worms have an increased life span if fed a restricted diet [e.g. Klass 1977, Lee et al. 2006]. However, it is unknown whether larval stages experience the same effect. To test this, I designed an experiment in lab with four treatment groups of L1 (first larval stage) worms, each fed a different concentration of *E. coli* (6 mg/mL, 4.8 mg/mL, 3.6 mg/mL, or 2.4 mg/mL). If the effect is the same on larvae as it is on adults, the expected outcome would be statiscially different lengths of time spent in L1 before molting to L2/L2d (second larval stage). To determine when the worms are molting, I used a specific strain of *C. elegans* with a gfp (green fluorescent protein) marker on the molting gene that makes the worms glow under an epifluorescent microscope when they're molting. The glow will last for about three hours, peaking in intensity when they molt [Monsalve et al. 2011]. One complication, however, is that if the worms are not completely synchronized in age (i.e. they don't all start from time zero in their life stage), and depending on how far apart in age they are, the results may be confounded by this variation. I created a simulation to test whether unsynchronized worms can produce statistically significant results and found that they can, but not as well as worms that are synchronized in age. After performing this test in silico, I designed and conducted this experiment in the lab and I found that larval dietary restriction does lengthen the amount of time spent in that stage. This means that the amount of time it takes a worm to molt from one larval stage to the next is food-dependent and aligns with the assumption made in the model.
+
+A sample of the code and results of the simulation can be found [here](https://github.com/RachelGoodridge/larval_dr_exp).
+
+\  
+
+### References
+1. Avery, L. (2014). A model of the effect of uncertainty on the *C elegans* L2/L2d decision. *PLoS ONE*, 9(7).
+2. Frézal, L., & Félix, M.-A. (2015). The Natural History of Model Organisms: *C. elegans* outside the Petri dish. *eLife*, 4. https://doi.org/10.7554/eLife.05849.001
+3. Hu, P.J. Dauer (August 08, 2007), *WormBook*, ed. The *C. elegans* Research Community, WormBook, doi/10.1895/wormbook.1.144.1, http://www.wormbook.org.
+4. Klass, M. R. (1977). AGING IN THE NEMATODE *CAENORHABDITIS ELEGANS*: MAJOR BIOLOGICAL AND ENVIRONMENTAL FACTORS INFLUENCING LIFE SPAN. *Mechanisms of Ageing and Development*, 6, 413-429.
+5. Lee, G. D., Wilson, M. A., Zhu, M., Wolkow, C. A., De Cabo, R., Ingram, D. K., & Zou, S. (2006). Dietary deprivation extends lifespan in *Caenorhabditis elegans*. *Aging Cell*, 5(6), 515-524.
+6. Monsalve, G. C., Van Buskirk, C., & Frand, A. R. (2011). LIN-42/PERIOD controls cyclical and developmental progression of *C. elegans* molts. *Current Biology*, 21(24), 2033-2045.

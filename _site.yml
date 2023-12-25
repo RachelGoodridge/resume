@@ -1,0 +1,22 @@
+name: "Rachel"
+output_dir: "."
+navbar:
+  title: "Rachel"
+  left:
+    - text: "Introduction"
+      href: index.html
+    - text: "Education"
+      href: edu.html
+    - text: "Experience"
+      href: exp.html
+    - text: "Skills"
+      href: skills.html
+    - text: "Projects"
+      href: proj.html
+    - text: "Publications"
+      href: pub.html
+output:
+  html_document:
+    includes:
+      in_header: header.html
+    theme: flatly

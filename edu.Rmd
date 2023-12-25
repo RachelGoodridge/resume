@@ -1,0 +1,68 @@
+---
+title: "Education"
+---
+
+\  
+
+### [UC San Diego, La Jolla CA](https://ucsd.edu/)
+#### SEPT 2019 - JUNE 2021
+#### Master of Science
+- Master of Science in Biology in the Ecology, Behavior, and Evolution (EBE) Department
+- Developed an extensive, original agent-based model in Python, and used it to simulate the life cycles and interactions of a nematode population
+- Designed and conducted laboratory experiments to study the effect of larval dietary restriction on the timescale of developmental transition
+- Thesis Title: Simulating the Evolutionary Effects of Environmental and Genetic Variation on Life History in *Caenorhabditis* (Python)
+- Two publications related to predicting the movements of *C. elegans* exhibiting foraging or escaping behaviors using empirical dynamic modeling, which is based on reconstructions of time series data (R)
+- Courses:
+  - Q-Biology
+  - Python
+  - Quantitative Ecology Project Lab
+  - Quantitative Evolutionary Bio
+  - Quantitative Theory / Populations & Communities
+- Good Academic Standing, 4.00 GPA
+
+\  
+
+### [UC San Diego, La Jolla CA](https://ucsd.edu/)
+#### SEPT 2015 - JUNE 2019
+#### Bachelor of Science
+- Bachelor of Science in General Biology with a minor in Mathematics
+- Attended Eleanor Roosevelt College (ERC) in UCSD's unique college system
+- Biology Courses:
+  - Evolution of Infectious Diseases
+  - Bioinformatics Laboratory
+  - Marine Biology
+  - Recombinant DNA Techniques
+  - Metabolic Biochemistry
+  - Evolution
+  - Ecology / Organisms & Habitats
+  - Human Physiology I
+  - Biostatistics
+  - Genetics
+  - Biology Lab
+- Math Courses:
+  - Applicable Math and Computing: Topics in Data Science
+  - History of Mathematics
+  - Mathematical Reasoning
+  - Applied Linear Algebra
+  - Vector Calculus
+  - Linear Algebra
+  - Differential Equations
+  - Calculus & Analytical Geometry
+  - Calculus / Science & Engineering
+- Other STEM Courses:
+  - Our Energy Future
+  - Organic Chemistry I & II
+  - Waves, Optics, and Modern Physics & Lab
+  - Electricity and Magnetism & Lab
+  - Mechanics & Lab
+  - General Chemistry I, II, III, & Lab
+- Good Academic Standing, 3.68 GPA
+
+\  
+
+### [Folsom High School, Folsom CA](https://www.fcusd.org/fhs)
+#### AUG 2011 - MAY 2015
+- AP Coursework: Calculus, Biology, French, Psychology
+- Honors Coursework: Chemistry, Physics, English
+- Club Involvement: California Scholarship Federation, National Society of High School Scholars, Key Club, and Interact Club
+- Valedictorian and graduation speaker, 4.17 GPA

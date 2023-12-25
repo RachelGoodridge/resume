@@ -1,0 +1,17 @@
+---
+title: "Publications"
+---
+
+\  
+
+### Networks of Causal Linkage Between Eigenmodes Characterize Behavioral Dynamics of *Caenorhabditis elegans*
+#### PLoS Computational Biology
+##### Sept 10, 2021
+This paper was a collaboration between members of the Scripps Institution of Oceanography and members of the Section of Ecology, Behavior, and Evolution, Division of Biological Sciences at UCSD. It was published in PLoS Computational Biology on September 10, 2021 and can be found online [here](https://doi.org/10.1371/journal.pcbi.1009329).
+
+\  
+
+### Tracking changes in behavioural dynamics using prediction error
+#### PLoS ONE
+##### May 12, 2021
+This paper was a collaboration between members of the Scripps Institution of Oceanography and members of the Section of Ecology, Behavior, and Evolution, Division of Biological Sciences at UCSD. It was first printed in bioRxiv on October 21, 2020 and can be found online [here](https://doi.org/10.1101/2020.10.19.346080). It was later published in PLoS ONE on May 12, 2021 and can be found online [here](https://doi.org/10.1371/journal.pone.0251053). The code used in our analysis is available via GitHub [here](https://rachelgoodridge.github.io/c_elegans_pred_error/).
