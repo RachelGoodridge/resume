@@ -1,0 +1,230 @@
+/* ======================================================
+   Rachel Goodridge – Personal CV Site
+   ====================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --accent:      #4a8fa8;
+  --accent-dark: #357a92;
+  --text-main:   #2d2d2d;
+  --text-soft:   #5a5a5a;
+  --bg-page:     #ffffff;
+  --bg-section:  #f7f9fb;
+  --border:      #e2e8ed;
+}
+
+body {
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif !important;
+  font-size: 14px !important;
+  color: var(--text-main) !important;
+  background-color: var(--bg-page) !important;
+  line-height: 1.7 !important;
+}
+
+/* ── Reset ALL Bootstrap heading margins globally ── */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  line-height: 1.25 !important;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif !important;
+}
+
+/* ── Then apply our own spacing and sizes ── */
+
+/* Page title (from YAML `title:`) */
+h1, .h1 {
+  font-size: 2.5rem !important;
+  font-weight: 700 !important;
+  color: var(--text-main) !important;
+  margin-bottom: 1.2rem !important;
+}
+
+/* Major section: "Education", "Technical Skills", "PhD Research" */
+h2, .h2 {
+  font-size: 2rem !important;
+  font-weight: 700 !important;
+  color: var(--accent) !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.08em !important;
+  padding-bottom: 0.3rem !important;
+  border-bottom: 1.5px solid var(--border) !important;
+  margin-top: 2rem !important;
+  margin-bottom: 0.6rem !important;
+}
+
+/* Entry header: institution, employer, project name */
+h3, .h3 {
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  color: var(--text-main) !important;
+  margin-top: 1.2rem !important;
+  margin-bottom: 0.05rem !important;
+}
+
+/* Sub-header: role within employer, coursework group heading */
+h4, .h4 {
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+  color: var(--text-main) !important;
+  margin-top: 0.08rem !important;
+  margin-bottom: 0.05rem !important;
+}
+
+/* Date / small label (kept small — it's metadata) */
+h5, .h5 {
+  font-size: 1.15rem !important;
+  font-weight: 400 !important;
+  color: var(--text-soft) !important;
+  margin-top: 0.05rem !important;
+  margin-bottom: 0.4rem !important;
+}
+
+/* ── Entry metadata line (location | degree | date) ── */
+p.entry-meta {
+  font-size: 1.15rem !important;
+  color: var(--text-soft) !important;
+  margin-top: 0.1rem !important;
+  margin-bottom: 0.5rem !important;
+  line-height: 1.6 !important;
+}
+
+/* ── Paragraphs and lists ── */
+p {
+  font-size: 14px !important;
+  line-height: 1.7 !important;
+  margin-top: 0.3rem !important;
+  margin-bottom: 0.3rem !important;
+}
+
+ul {
+  margin-top: 0.2rem !important;
+  margin-bottom: 0.4rem !important;
+  padding-left: 1.4rem !important;
+}
+
+li {
+  font-size: 14px !important;
+  margin-bottom: 0.15rem !important;
+  line-height: 1.6 !important;
+}
+
+/* ── Horizontal rules — thin separator, tight margin ── */
+hr {
+  border: none !important;
+  border-top: 1px solid var(--border) !important;
+  margin-top: 1.1rem !important;
+  margin-bottom: 0 !important;   /* heading below provides its own top margin */
+}
+
+/* ── Navbar ── */
+.navbar {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid var(--border) !important;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05) !important;
+}
+.navbar-brand {
+  font-weight: 700 !important;
+  font-size: 1.15rem !important;
+  color: var(--text-main) !important;
+}
+.navbar-nav > li > a {
+  font-size: 1.15rem !important;
+  font-weight: 500 !important;
+  color: var(--text-soft) !important;
+  letter-spacing: 0.04em !important;
+  text-transform: uppercase !important;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+}
+.navbar-nav > li > a:hover,
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:focus {
+  color: var(--accent) !important;
+  background-color: transparent !important;
+}
+
+/* ── Page container ── */
+.container-fluid.main-container {
+  max-width: 860px !important;
+  padding-top: 1.6rem !important;
+  padding-bottom: 3rem !important;
+}
+
+/* ── Links ── */
+a {
+  color: var(--accent) !important;
+  text-decoration: none !important;
+  transition: color 0.15s;
+}
+a:hover {
+  color: var(--accent-dark) !important;
+  text-decoration: underline !important;
+}
+/* Heading links inherit heading color, not accent */
+h3 a, h4 a { color: var(--text-main) !important; }
+h2 a { color: var(--accent) !important; }
+.navbar-brand { color: var(--text-main) !important; }
+.navbar-nav > li > a { color: var(--text-soft) !important; }
+
+/* ── Photos ── */
+.profile-photo {
+  display: block !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10) !important;
+  margin: 0.6rem 0 1.2rem 0 !important;
+  max-width: 100% !important;
+  height: auto !important;
+}
+.edu-photo {
+  display: block !important;
+  border-radius: 6px !important;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.10) !important;
+  margin: 0.6rem 0 1rem 0 !important;
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+/* ── Contact pills ── */
+.contact-list {
+  list-style: none !important;
+  padding: 0 !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.45rem !important;
+  margin-top: 0.5rem !important;
+  margin-bottom: 0 !important;
+}
+.contact-list li { margin-bottom: 0 !important; }
+.contact-list li a {
+  display: inline-block !important;
+  padding: 0.2rem 0.75rem !important;
+  background: var(--bg-section) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 20px !important;
+  font-size: 1.15rem !important;
+  color: var(--text-soft) !important;
+}
+.contact-list li a:hover {
+  background: var(--accent) !important;
+  color: #fff !important;
+  text-decoration: none !important;
+  border-color: var(--accent) !important;
+}
+
+/* ── Footer ── */
+.page-footer {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  font-size: 1.0rem;
+  color: #aaa;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .container-fluid.main-container { padding-left: 1rem !important; padding-right: 1rem !important; }
+}

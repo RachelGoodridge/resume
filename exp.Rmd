@@ -1,0 +1,141 @@
+---
+title: "Experience"
+---
+
+## [Illumina](https://www.illumina.com/)
+<p class="entry-meta">San Diego, CA</p>
+
+### Scientist II, Surface Chemistry Team
+<p class="entry-meta">Jan 2023 – July 2024</p>
+
+- Conducted research toward the development of next-generation DNA sequencing technologies
+- Independently designed and troubleshot complex molecular experiments
+- Led collaborative meetings with team members across disciplines
+- Developed scripts for internal analyses and supported team data workflows
+- 2023 Illumina Inventor Award for submission of 3 invention disclosures and 1 patent application pending
+
+---
+
+### Scientist I
+<p class="entry-meta">Oct 2022 – Jan 2023</p>
+
+- Designed complex experiments with appropriate controls
+- Applied knowledge of a breadth of standard methods
+- Wrote ideas and co-authored invention disclosures
+- Collaborated with team members across disciplines
+
+---
+
+### Research Associate II
+<p class="entry-meta">May 2022 – Oct 2022</p>
+
+- Took independence in experiment planning and execution
+- Interpreted results and suggested next steps
+- Troubleshot problems in the laboratory
+
+---
+
+### Research Associate I
+<p class="entry-meta">Oct 2021 – Apr 2022</p>
+
+- Executed planned laboratory experiments
+- Took initiative for timely and quality work
+- Obtained guidance from senior scientists
+
+---
+
+## Metis Online Flex Bootcamp
+
+### Data Scientist
+<p class="entry-meta">Aug 2021 – Feb 2022</p>
+
+- Completed a 24-week data science and engineering bootcamp focused on Python, statistics, linear algebra, data analysis, supervised and unsupervised machine learning, and visualization
+- Independently designed six end-to-end projects: Exploratory Data Analysis, Linear Regression and Web Scraping, Business Fundamentals, Machine Learning, Natural Language Processing, and Data Engineering
+- Presented findings to data science professionals and peers of technical and non-technical backgrounds
+- Awarded Women in STEM / Diversity scholarship toward tuition
+
+---
+
+## [UC San Diego Recreation](https://recreation.ucsd.edu/)
+<p class="entry-meta">La Jolla, CA</p>
+
+### Facility Supervisor
+<p class="entry-meta">Sept 2018 – Sept 2021</p>
+
+- Arranged for events, opened and closed the gym, and supervised sales staff
+- Acted as a first responder in case of emergency
+- Served on the hiring committee and conducted interviews
+- Trained over 50 new employees and authored the Facility Supervisor training manuals
+- Promoted to lead Facility Supervisor and scheduling lead (2019)
+- Employee of the Month (Feb 2020), Employee of the Year (2019–2020)
+
+---
+
+### Recreation Experience Assistant
+<p class="entry-meta">Sept 2017 – Sept 2018</p>
+
+- Greeted patrons and shared knowledge on facilities and programs
+- Rented equipment, sold memberships and classes
+- Assisted with problem-solving and de-escalation
+
+---
+
+### Equipment Room / Sales Attendant
+<p class="entry-meta">Oct 2016 – Sept 2017</p>
+
+- Rented equipment and lockers; sold memberships, classes, and merchandise
+- Performed opening and closing procedures
+- Reported issues or injuries to a supervisor
+
+---
+
+## [UC San Diego Mathematics](https://math.ucsd.edu/)
+<p class="entry-meta">La Jolla, CA</p>
+
+### Teaching Assistant
+<p class="entry-meta">Sept 2019 – June 2021</p>
+
+- Taught discussion sections and hosted office hours
+- Proctored and graded midterms and final exams
+- Served as lead TA and coordinated schedules and grading
+
+### Courses Taught
+
+- Vector/Multivariable Calculus (MATH 20C)
+- Integral Calculus (MATH 10B)
+- Precalculus (MATH 3C)
+- Probability and Statistics (MATH 11)
+
+---
+
+## [Department of Pesticide Regulation (DPR)](https://www.cdpr.ca.gov/) / [California Environmental Protection Agency (Cal EPA)](https://calepa.ca.gov/)
+<p class="entry-meta">Sacramento, CA</p>
+
+### Student Intern in the Human Health Assessment Branch
+<p class="entry-meta">Summer 2016 and Summer 2018</p>
+
+- Analyzed scientific documents and protocols
+- Evaluated a toxicology model in Microsoft Excel and performed sensitivity analyses
+- Built a literature database using EndNote
+- Produced technical reports with charts and graphs
+
+---
+
+## [Sacramento Zoological Society](https://www.saczoo.org/)
+<p class="entry-meta">Sacramento, CA</p>
+
+### Summer Camp Teaching Assistant
+<p class="entry-meta">Summer 2016 – 2017</p>
+
+- Taught children (ages 4–13) about biology and conservation
+- Aided the teacher in designing and implementing lesson plans
+- Supervised and instructed teenage camp counselors
+
+---
+
+### Summer Camp Counselor
+<p class="entry-meta">Summer 2011 – 2015</p>
+
+- Supervised hundreds of campers
+- Followed directions from instructors
+- Recognized for initiative, leadership, and enthusiasm

@@ -1,0 +1,120 @@
+---
+title: "Skills"
+---
+
+## Technical Skills
+
+### Bioinformatics and Genomics
+
+- Snakemake
+- GLIMPSE (genotype likelihood imputation)
+- PLINK
+- ADMIXTURE
+- BCFtools
+- BWA
+- IBIS (identity-by-descent detection)
+- GEMMA
+- GWAS (genome-wide association studies)
+- SLURM (HPC job scheduling)
+
+---
+
+### Programming Languages
+
+- Python
+- R
+- Bash / Shell
+- SLiM (forward-time population genetics simulator)
+- Git / GitHub
+- JMP
+- SQL
+- Tableau
+- HTML
+
+---
+
+### Python Libraries and Tools
+
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- BeautifulSoup
+- Scikit-learn
+- SciPy
+- Plotly
+- Streamlit
+- SQLAlchemy
+- Natural Language Toolkit (NLTK)
+- Regular Expressions (re)
+- argparse
+- Datetime
+- Pickle
+- os
+- Interact
+
+---
+
+### Modeling and Data Science
+
+- Dimensionality Reduction
+- k-Nearest Neighbors
+- Linear Regression
+- Logistic Regression
+- Supervised and Unsupervised Machine Learning
+- Classification
+- Natural Language Processing (NLP)
+- Topic Modeling
+- Recommendation Systems
+- Web Applications
+- Object-Oriented Programming (OOP)
+- Unit Testing
+- Web Scraping
+- Data Visualization
+
+---
+
+### Laboratory Instruments, Equipment, and Techniques
+
+- CHI Electrochemical Analyzer
+- Trion Etcher
+- UV Ozone (UVO) Cleaner
+- Plasma Asher
+- Scanning Electron Microscope (SEM)
+- Energy-dispersive X-ray (EDX) Spectroscopy
+- Thermocycler
+- Typhoon Scanner
+- Cytation5 Plate Reader
+- Contact Angle Measurement / Goniometer
+- NanoDrop Spectrophotometer
+- Cleanroom Trained
+- Epifluorescent Microscope
+- Pipettes
+- Sonicator
+- Sterile Techniques
+- Autoclave
+- Solution Preparation
+- pH Measurement
+- Centrifugation
+
+---
+
+## Professional Skills
+
+- Problem Solving
+- Critical Thinking
+- Quantitative Analysis
+- Teaching and Mentorship
+- Organization
+- Leadership
+- Written and Oral Communication
+- Interdisciplinary Collaboration
+- Initiative
+- Intermediate Competency in French
+
+---
+
+## Certifications
+
+- Adult and Pediatric First Aid / CPR / AED Certified, American Red Cross
+- Connect2 Champion Certification

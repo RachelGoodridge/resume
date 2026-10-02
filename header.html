@@ -1,0 +1,16 @@
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="shortcut icon" href="favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll("a[href]").forEach(function (link) {
+      var href = link.getAttribute("href");
+      // Open in new tab if external (http/https) or a mailto
+      if (href && (href.startsWith("http") || href.startsWith("mailto"))) {
+        link.setAttribute("target", "_blank");
+        link.setAttribute("rel", "noopener noreferrer");
+      }
+    });
+  });
+</script>

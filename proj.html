@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Projects</title>
+
+<script src="site_libs/header-attrs-2.32/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="shortcut icon" href="favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll("a[href]").forEach(function (link) {
+      var href = link.getAttribute("href");
+      // Open in new tab if external (http/https) or a mailto
+      if (href && (href.startsWith("http") || href.startsWith("mailto"))) {
+        link.setAttribute("target", "_blank");
+        link.setAttribute("rel", "noopener noreferrer");
+      }
+    });
+  });
+</script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="custom.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Rachel Goodridge</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">About</a>
+</li>
+<li>
+  <a href="edu.html">Education</a>
+</li>
+<li>
+  <a href="exp.html">Experience</a>
+</li>
+<li>
+  <a href="proj.html">Projects</a>
+</li>
+<li>
+  <a href="pub.html">Publications</a>
+</li>
+<li>
+  <a href="pres.html">Presentations</a>
+</li>
+<li>
+  <a href="skills.html">Skills</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Projects</h1>
+
+</div>
+
+
+<div id="phd-research" class="section level2">
+<h2>PhD Research</h2>
+<p class="entry-meta">
+Cornell University
+</p>
+<p class="entry-meta">
+Enbody Lab and Messer Lab
+</p>
+<div id="the-big-bird-hybrid-lineage-in-darwins-finches"
+class="section level3">
+<h3>The Big Bird Hybrid Lineage in Darwin’s Finches</h3>
+Hybridization can introduce novel genetic variation that alters
+evolutionary trajectories and may play an important role in rapid
+speciation during adaptive radiations. In the Darwin’s finch radiation,
+hybridization between species is traceable through heritable variation
+in beak morphology, reflected in increasing morphological and genomic
+similarity between the medium ground finch, <em>Geospiza fortis</em>,
+and the common cactus finch, <em>G. scandens</em>, on the small island
+Daphne Major. However, the evolutionary outcomes of gene flow can be
+unpredictable, with rare events sometimes leaving lasting genomic
+signatures. In 1981, a single male <em>G. conirostris</em>, a cactus
+finch with a characteristically larger, deeper beak, made a rare
+long-distance migration to Daphne and founded a reproductively isolated
+hybrid lineage with <em>G. fortis</em>, known as the “Big Bird” lineage.
+The long-term fate of this lineage has remained unknown. We used
+whole-genome data from 2022 to assess the genetic legacy of this lineage
+in the contemporary population, building on over 30 years of previous
+genomic monitoring. Using identity-by-descent (IBD) tracts with the
+founder, we show that while the Big Bird lineage remained reproductively
+isolated from its parental species, it has more recently outbred with
+the <em>scandens</em> population. Remarkably, over 70% of
+<em>scandens</em> individuals now share at least one IBD segment with
+the founder, enabling reconstruction of approximately 80% of the
+founder’s genome. Consistent with a phenotypic effect of introgression,
+individuals with a higher fraction of their genome in IBD tend to
+exhibit blunter beaks. Together, these results reveal the extraordinary
+genetic legacy of a single immigrant.
+<div style="margin-bottom: 8px;">
+
+</div>
+<p><em>A manuscript describing this work is in preparation.</em></p>
+<hr />
+</div>
+<div id="genomic-imputation-pipeline-for-low-coverage-wgs-data"
+class="section level3">
+<h3>Genomic Imputation Pipeline for Low-Coverage WGS Data</h3>
+Low-coverage whole-genome sequencing (lcWGS) reduces per-sample
+sequencing costs while still providing genome-wide data. However, the
+low depth (typically 1–4x) means that many genotypes are uncertain or
+missing, requiring imputation to produce high-quality variant calls
+suitable for downstream analysis.
+<div style="margin-bottom: 8px;">
+
+</div>
+I developed a Snakemake-based pipeline for genotype imputation of lcWGS
+data, built around the <a
+href="https://odelaneau.github.io/GLIMPSE/glimpse1/">GLIMPSE1</a>
+toolkit. The pipeline handles the full workflow from raw input fastq
+files through mapping to the reference genome, chunking a high-coverage
+reference panel, imputing genotypes, and merging results into a final
+phased and imputed VCF. It is modular and configurable, and produces
+output ready for downstream tools such as PLINK, ADMIXTURE, and IBIS.
+<div style="margin-bottom: 8px;">
+
+</div>
+This pipeline was developed to support the Big Bird project but is
+written to be generalizable to other non-model organisms with an
+appropriate reference panel.
+<div style="margin-bottom: 8px;">
+
+</div>
+<p>Find the code on GitHub <a
+href="https://github.com/RachelGoodridge/finch_genome_imputation">here</a>.</p>
+<hr />
+</div>
+<div id="multilocus-suppression-gene-drive" class="section level3">
+<h3>Multilocus Suppression Gene Drive</h3>
+Gene drives are selfish genetic elements that can spread through a
+population faster than standard Mendelian inheritance, making them a
+powerful potential tool for population suppression or modification.
+However, single-locus drives face challenges from resistance alleles
+that can prevent drive spread. We propose a new suppression drive
+designed to reduce the selective advantage of functional resistance
+alleles by targeting multiple distant-site genes, each with only a
+moderate recessive deleterious effect. As these recessive deleterious
+mutations accumulate, individuals increasingly inherit mutations in a
+homozygous state, causing a substantial genetic load to be imposed on
+the population.
+<div style="margin-bottom: 8px;">
+
+</div>
+This project, developed in collaboration with the <a
+href="https://messerlab.org/">Messer Lab</a>, investigates these
+dynamics using forward-time population genetics simulations in <a
+href="https://messerlab.org/slim/">SLiM</a>. The work explores how the
+number of target loci, the fitness costs of target sites, and linkage at
+target sites affect the realized genetic load of the population and
+recovery time.
+<div style="margin-bottom: 8px;">
+
+</div>
+<p>Find the code on GitHub <a
+href="https://github.com/MesserLab/multilocus-suppression">here</a>.</p>
+<hr />
+</div>
+</div>
+<div id="metis-data-science-projects" class="section level2">
+<h2>Metis Data Science Projects</h2>
+<p class="entry-meta">
+Metis Data Science Bootcamp
+</p>
+<div id="comparing-covid-19-cases-to-vaccines-in-the-united-states"
+class="section level3">
+<h3>Comparing COVID-19 Cases to Vaccines in the United States</h3>
+Using data about COVID-19 cases from Johns Hopkins University (found <a
+href="https://www.kaggle.com/headsortails/covid19-us-county-jhu-data-demographics?select=covid_us_county.csv">here</a>)
+and COVID vaccines from the CDC (found <a
+href="https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations">here</a>),
+I created an interactive website application that allows users to select
+and interpret geospatial data on an interactive map, create customizable
+dataframe queries, and observe visualizations of changes in COVID cases
+and vaccines over time. The app is meant to be informative to the
+general public and can be used to identify target locations for public
+health outreach. I developed it with Streamlit and deployed it using
+GitHub.
+<div style="margin-bottom: 8px;">
+
+</div>
+<p>Find the code on GitHub <a
+href="https://github.com/RachelGoodridge/Data_Engineering">here</a>.</p>
+<hr />
+</div>
+<div id="developing-a-recommendation-system-for-wine-enthusiasts"
+class="section level3">
+<h3>Developing a Recommendation System for Wine Enthusiasts</h3>
+The purpose of this project is to create a wine recommendation system
+that allows users of all experience levels to explore new options and
+make decisions about their next wine purchase. The <a
+href="https://www.kaggle.com/mysarahmadbhat/wine-tasting">dataset</a>
+includes 49,546 unique wine tastings and descriptions written by
+sommeliers. Using text preprocessing, dimensionality reduction, and
+topic modeling, I created a content-based filtering system that finds
+the closest match to any given wine in the dataset. The search can be
+narrowed based on user input so the algorithm returns only wines with
+specific requested features.
+<div style="margin-bottom: 8px;">
+
+</div>
+<p>Find the code on GitHub <a
+href="https://github.com/RachelGoodridge/Natural_Language_Processing">here</a>.</p>
+<hr />
+</div>
+<div id="predicting-potentially-hazardous-asteroids"
+class="section level3">
+<h3>Predicting Potentially Hazardous Asteroids</h3>
+Near-Earth Objects (NEOs) occasionally have the potential to collide
+with Earth and cause enormous damage. Using <a
+href="https://ssd.jpl.nasa.gov/tools/sbdb_query.html">NASA’s Small-Body
+Database</a>, I trained a machine learning classification model to
+predict which asteroids are potentially hazardous. Following
+oversampling to address class imbalance and optimization of parameters,
+the best model based on F1 validation scores was XGBoost Classifier
+(holdout score: 0.784). The most important features were absolute
+magnitude, closest distance to the sun, and orbit uncertainty.
+<div style="margin-bottom: 8px;">
+
+</div>
+<p>Find the code on GitHub <a
+href="https://github.com/RachelGoodridge/Machine_Learning">here</a>.</p>
+<hr />
+</div>
+<div id="comparing-microsoft-vs.-nintendo-vs.-sony"
+class="section level3">
+<h3>Comparing Microsoft vs. Nintendo vs. Sony</h3>
+To help Microsoft compete against Nintendo and Sony in the gaming world,
+I employed data analysis and data science techniques as part of an
+end-to-end data pipeline. Through exploratory data analysis of game
+sales and ratings, focus areas were selected depending on the preference
+for diversification of game availability or improvement of the current
+gaming niche.
+<div style="margin-bottom: 8px;">
+
+</div>
+<p>Exploration and visualization on <a
+href="https://public.tableau.com/app/profile/rachel.goodridge#!/?newProfile=&amp;activeTab=0">Tableau</a>.
+Code on GitHub <a
+href="https://github.com/RachelGoodridge/Business_Fundamentals">here</a>.</p>
+<hr />
+</div>
+<div
+id="modeling-worldwide-gross-box-office-collection-for-films-20122021"
+class="section level3">
+<h3>Modeling Worldwide Gross Box Office Collection for Films
+2012–2021</h3>
+Using data scraped from <a
+href="https://www.boxofficemojo.com/year/2021/?grossesOption=calendarGrosses">Box
+Office Mojo</a>, I built a multiple linear regression model to determine
+which features affect the worldwide gross box office of a film. Features
+including budget, running time, and number of theaters showed positive
+correlation with worldwide gross. Comparisons were also made between
+distributors and genres using dummy variables.
+<div style="margin-bottom: 8px;">
+
+</div>
+<p>Find the code on GitHub <a
+href="https://github.com/RachelGoodridge/Linear_Regression_Web_Scraping">here</a>.</p>
+<hr />
+</div>
+<div id="optimizing-construction-work-on-the-mta-system-in-nyc"
+class="section level3">
+<h3>Optimizing Construction Work on the MTA System in NYC</h3>
+Through interpretation of <a
+href="http://web.mta.info/developers/turnstile.html">MTA Turnstile
+Data</a> for the Lexington Ave/59th Street subway station in Manhattan,
+I determined an optimal time for closing the station for construction
+work. Data was ingested using SQLite and processed in Python with
+pandas. Results showed the least amount of traffic occurs between
+midnight and 4am on weekdays.
+<div style="margin-bottom: 8px;">
+
+</div>
+<p>Find the code on GitHub <a
+href="https://github.com/RachelGoodridge/Exploratory_Data_Analysis">here</a>.</p>
+<hr />
+</div>
+</div>
+<div id="masters-thesis-research" class="section level2">
+<h2>Master’s Thesis Research</h2>
+<p class="entry-meta">
+UC San Diego
+</p>
+<p class="entry-meta">
+Rifkin Lab
+</p>
+<div id="background-information" class="section level3">
+<h3>Background Information</h3>
+<p><em>Caenorhabditis elegans</em> is a millimeter-long roundworm
+(nematode) found worldwide in soil and rotting plant matter. It serves
+as a model organism for various genetic and evolutionary studies due to
+its fast life cycle, ease of maintenance, and simple neurological
+structure. Click <a
+href="https://www.youtube.com/watch?v=zjqLwPgLnV0">here</a> to watch a
+brief <em>C. elegans</em> video.</p>
+<hr />
+</div>
+<div id="c.-elegans-life-history-model" class="section level3">
+<h3><em>C. elegans</em> Life History Model</h3>
+<p>I conducted research in the lab of Dr. Scott Rifkin studying the
+evolution of the dauer stage, an intermediate larval stage during which
+the worm can enter a stasis-like state given difficult environmental
+conditions such as overcrowding or lack of food. I developed a
+population ecology and evolution model in Python to simulate the
+development of a group of individuals, their interactions with each
+other, and their responses to specific environmental conditions. The
+model accounts for genetics and stochasticity in decision-making and was
+validated against laboratory experiments.</p>
+<p>The complete Python script and a Jupyter notebook demonstrating use
+of the model can be found <a
+href="https://github.com/RachelGoodridge/life_history_sim">here</a>.</p>
+<hr />
+</div>
+<div id="abstract-of-the-thesis" class="section level3">
+<h3>Abstract of the Thesis</h3>
+<p>Nematodes such as <em>Caenorhabditis elegans</em>, <em>C.
+briggsae</em>, <em>C. remanei</em>, and <em>C. nigoni</em> are model
+organisms that primarily reside in rotting fruit and plant matter. When
+conditions are poor, worms must decide whether to enter the dauer stage.
+Entering dauer allows worms to survive for months, but the risk of dying
+in dauer is high and this creates a tradeoff. I created an extensive
+model in Python to simulate population dynamics and decision-making
+strategies of worms under various environmental conditions. This model
+includes genes related to both dauer and travel direction
+decision-making. Experiments showed significant evolution of both genes
+under stronger selection against worms in dauer, both genes under higher
+food availability, the dauer gene only when the dauer
+genotype-to-phenotype mapping is altered, and neither gene when
+seasonality is introduced. Results suggest that the direction of
+evolution depends on the nature and strength of environmental selection
+pressures.</p>
+<hr />
+</div>
+<div id="larval-dietary-restriction-experiment" class="section level3">
+<h3>Larval Dietary Restriction Experiment</h3>
+I designed an experiment with four treatment groups of L1 (first larval
+stage) worms, each fed a different concentration of <em>E. coli</em> (6
+mg/mL, 4.8 mg/mL, 3.6 mg/mL, or 2.4 mg/mL), to test whether the quantity
+of food available to a worm determines the timing of its transition to
+the next developmental stage. I used a strain of <em>C. elegans</em>
+with a GFP marker on the molting gene to identify molting events under
+an epifluorescent microscope. I first validated the experimental design
+using simulation, then conducted the experiment in the laboratory.
+Results showed that larval dietary restriction does lengthen the amount
+of time spent in the larval stage, meaning that developmental timing is
+food-dependent in larvae, consistent with what is known for adults.
+<div style="margin-bottom: 8px;">
+
+</div>
+<p>A sample of the code and results of the simulation can be found <a
+href="https://github.com/RachelGoodridge/larval_dr_exp">here</a>.</p>
+</div>
+</div>
+
+<div class="page-footer">
+  Rachel Goodridge &nbsp;&middot;&nbsp; Updated October 2026 &nbsp;&middot;&nbsp;
+  Built with <a href="https://rmarkdown.rstudio.com/" style="color:#aaa;">R Markdown</a>
+</div>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

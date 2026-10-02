@@ -1,0 +1,39 @@
+---
+title: "Publications"
+---
+
+## In Preparation
+
+### The Genetic Legacy of a Single Immigrant Behind the Big Bird Hybrid Lineage in Darwin's Finches
+<div style="margin-bottom: 8px;"></div>
+Uses whole-genome sequencing data to assess the genetic legacy of a single immigrant *G. conirostris* male who founded the reproductively isolated "Big Bird" hybrid lineage on Daphne Major. Despite the lineage's initial isolation, it has more recently outbred with the resident *G. scandens* population, with over 70% of *scandens* individuals now sharing IBD segments with the founder. Individuals carrying more founder ancestry tend to exhibit blunter beaks, revealing the extraordinary and lasting genomic impact of a single immigrant.
+
+---
+
+### A resistance-robust suppression gene drive leveraging the accumulation of recessive deleterious mutations
+<div style="margin-bottom: 8px;"></div>
+Proposes a multilocus suppression gene drive that targets multiple distant-site genes, each with only a moderate recessive deleterious effect, to reduce the selective advantage of resistance alleles. As deleterious mutations accumulate across target sites, individuals increasingly inherit them in a homozygous state, imposing a sustained genetic load on the population and maintaining suppression even in the presence of resistance.
+
+---
+
+## Published
+
+### Networks of Causal Linkage Between Eigenmodes Characterize Behavioral Dynamics of *Caenorhabditis elegans*
+<p class="entry-meta">PLoS Computational Biology</p>
+
+<p class="entry-meta">Sept 10, 2021</p>
+
+A collaboration between members of the Scripps Institution of Oceanography and the Section of Ecology, Behavior, and Evolution at UCSD. Applied a dynamical systems approach to reveal high-dimensional, nonlinear interactions in *C. elegans* behavior. Revealed subtle phenotypic variation between individuals and mutant strains not detectable via traditional methods.
+<div style="margin-bottom: 8px;"></div>
+Find it online [here](https://doi.org/10.1371/journal.pcbi.1009329).
+
+---
+
+### Tracking Changes in Behavioural Dynamics Using Prediction Error
+<p class="entry-meta">PLoS ONE</p>
+
+<p class="entry-meta">May 12, 2021</p>
+
+A collaboration between members of the Scripps Institution of Oceanography and the Section of Ecology, Behavior, and Evolution at UCSD. Presented a data-driven method using empirical dynamic modeling to detect subtle, high-resolution behavioral changes in *C. elegans*. Compared motion against a reference attractor, enabling individualized and behavior-specific analysis from video-derived time series.
+<div style="margin-bottom: 8px;"></div>
+First printed in *bioRxiv* on October 21, 2020 ([preprint](https://doi.org/10.1101/2020.10.19.346080)). Published in *PLoS ONE* on May 12, 2021 ([manuscript](https://doi.org/10.1371/journal.pone.0251053)). Code available on GitHub [here](https://rachelgoodridge.github.io/c_elegans_pred_error/).

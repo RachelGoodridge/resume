@@ -1,0 +1,26 @@
+name: "Rachel Goodridge"
+output_dir: "."
+navbar:
+  title: "Rachel Goodridge"
+  left:
+    - text: "About"
+      href: index.html
+    - text: "Education"
+      href: edu.html
+    - text: "Experience"
+      href: exp.html
+    - text: "Projects"
+      href: proj.html
+    - text: "Publications"
+      href: pub.html
+    - text: "Presentations"
+      href: pres.html
+    - text: "Skills"
+      href: skills.html
+output:
+  html_document:
+    includes:
+      in_header: header.html
+      after_body: footer.html
+    theme: flatly
+    css: custom.css
